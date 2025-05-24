@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for TOUCAN -->
+<jnlp
+  spec="1.0+"
+  codebase="https://gbiomed.kuleuven.be/apps/lcb/toucan/"
+  href="toucan.jnlp">
+  <information>
+    <title>TOUCAN</title>
+    <vendor>University of Leuven &amp; VIB - Developed by Stein Aerts</vendor>
+    <homepage href="https://gbiomed.kuleuven.be/apps/lcb/toucan/index.php"/>
+    <description>Toucan for deciphering the cis-regulatory logic of coregulated genes</description>
+    <description kind="short">Toucan is a workbench for regulatory sequence analysis on metazoan genomes : comparative genomics, detection of significant transcription factor binding sites, 
+    and detection of cis-regulatory modules in sets of coexpressed/coregulated genes. Please cite: Aerts S., Thijs G., Coessens B., Staes M., Moreau Y., De Moor B. (2003) "Toucan : Deciphering the Cis-Regulatory Logic of Coregulated Genes". Nucl Acids Res, vol. 31, no. 6, 2003, pp. 1753-1764.
+    </description>
+    <description kind="tooltip">TOUCAN 2</description>
+    <description kind="one-line">TOUCAN 2 - regulatory sequence analysis workbench</description>
+    <icon href="https://gbiomed.kuleuven.be/apps/lcb/toucan/Images/toucan7.jpg"/>
+    <offline-allowed/>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.6+" max-heap-size="500m" />
+    <jar href="activation.jar"/>
+    <jar href="ant.jar"/>
+    <jar href="axis-ant.jar"/>
+    <jar href="axis-former.jar"/>
+    <jar href="axis.jar"/>
+    <jar href="biojava.jar"/>
+    <jar href="bytecode.jar"/>
+    <jar href="commons-discovery.jar"/>
+    <jar href="commons-logging.jar"/>
+    <jar href="distributions.jar"/>
+    <jar href="ecp.jar"/>
+    <jar href="ensj.jar"/>
+    <jar href="jai_codec.jar"/>
+    <jar href="jakarta-oro.jar"/>
+    <jar href="jargs.jar"/>
+    <jar href="jaxrpc-api.jar"/>
+    <jar href="jaxrpc.jar"/>
+    <jar href="jaxrpc-ri.jar"/>
+    <jar href="jodd.jar"/>
+    <jar href="log4j.jar"/>
+    <jar href="modulesearch.jar"/>
+    <jar href="mysql-connector-java-3.1.8-bin.jar"/>
+    <jar href="ostermiller.jar"/>
+    <jar href="rmiservices.jar"/>
+    <jar href="RSATWS.jar"/>
+    <jar href="saaj.jar"/>
+    <jar href="toucan.jar"/>
+    <jar href="wsdl4j.jar"/>
+    <jar href="xerces.jar"/>
+  </resources>
+  <application-desc main-class="toucan.gui.MainFrame"/>
+</jnlp> 

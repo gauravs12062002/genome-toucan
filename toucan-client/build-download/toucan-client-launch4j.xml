@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>jars/toucan-client.jar</jar>
+  <outfile>/home/ghuls/compile/toucan/toucan-client/build-download/toucan/toucan.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <minVersion>1.6.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <splash>
+    <file>/home/ghuls/compile/toucan/toucan-client/build-download/toucan.bmp</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>20</timeout>
+    <timeoutErr>true</timeoutErr>
+  </splash>
+  <versionInfo>
+    <fileVersion>3.1.1.0</fileVersion>
+    <txtFileVersion>3.1.1</txtFileVersion>
+    <fileDescription>Toucan for deciphering the cis-regulatory logic of coregulated genes</fileDescription>
+    <copyright>2005-2014</copyright>
+    <productVersion>3.1.1.0</productVersion>
+    <txtProductVersion>3.1.1</txtProductVersion>
+    <productName>Toucan</productName>
+    <companyName>Laboratory of Computational Biology, KULeuven</companyName>
+    <internalName>toucan</internalName>
+    <originalFilename>toucan.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
